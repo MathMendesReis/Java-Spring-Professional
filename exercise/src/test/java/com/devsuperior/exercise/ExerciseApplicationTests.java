@@ -1,10 +1,10 @@
-package com.devsuperios.desafio001;
+package com.devsuperior.exercise;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Desafio001ApplicationTests {
+class ExerciseApplicationTests {
 
 	@Test
 	void contextLoads() {

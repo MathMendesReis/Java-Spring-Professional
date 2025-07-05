@@ -1,13 +1,13 @@
-package com.devsuperios.desafio001;
+package com.devsuperior.exercise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Desafio001Application {
+public class ExerciseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Desafio001Application.class, args);
+		SpringApplication.run(ExerciseApplication.class, args);
 	}
 
 }

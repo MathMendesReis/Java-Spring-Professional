@@ -8,11 +8,11 @@
 		<version>3.5.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devsuperios</groupId>
-	<artifactId>desafio001</artifactId>
+	<groupId>com.devsuperior</groupId>
+	<artifactId>exercise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>desafio001</name>
-	<description> Componentes e injeção de dependência</description>
+	<name>exercise</name>
+	<description>Exercícios/desafios java</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -35,6 +35,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
